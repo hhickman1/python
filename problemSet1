@@ -1,0 +1,28 @@
+Problem Set 1 
+
+Question 1
+## Count the number of vowels contained in a string "s". The output would read: Number of vowels: 5
+
+for i in s: 
+  if i == 'a' or i == 'e' or i == 'i' or i == 'o' or i == 'u:
+      count += 1
+  print('Number of vowels: ' + count)
+  
+  
+Question 2
+Print the number of times the string 'bob' occurs in a string. The output should print: Number of times bob occurs is: 2  
+
+s = string
+counter = 0
+for i in range(len(s)-2):
+    if s[i:i+3] == "bob":
+        bobCount += 1
+
+print("Number of times bob occurs is:", bobCount)
+
+counter = 0
+for i in range(len(s) - 2):
+    if s[i] == 'b' and s[i + 1] == 'o' and s[i + 2] == 'b':
+        counter += 1
+
+print ('Number of times bob occurs is:', counter)
